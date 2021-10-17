@@ -1,0 +1,188 @@
+body {
+	background-color: #f5ee90;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.menu{
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	background-color: #0c65eb;
+	z-index: 10;
+}
+
+.menu-s{
+	position: relative;
+	width: 100%;
+	height: 60px;
+}
+
+.menu ul{
+	display: block;
+	width: 100%;
+	height: 60px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.menu li{
+	display: inline-block;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    width: 32%;
+    height: 60px;
+    background-color: #ffffff;
+	box-shadow: 0px 0px 7px 7px #0c65eb inset;
+    transition: 1s;
+}
+.menu li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu li a p{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.menu li:hover{
+	background-color: #b5b5b5;
+}
+
+body header {
+	display: block;
+	width: 100%;
+	height: 100px;
+	background-color: #0c65eb;
+	position: relative;
+	border-bottom: solid black 5px;
+	font-size: 20px;
+}
+
+body header h1 {
+	position: relative;
+	top: 25px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: #ffffff;
+}
+
+body header img {
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	float: right;
+}
+
+body .cont{
+	position: relative;
+	width: 100%;
+}
+
+body .cont table{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.cont table td{
+	height: 300px;
+	padding: 5px;
+}
+.cont table td img{
+	width: 100%;
+	height: 100%;
+}
+
+.cont table td img{
+	transition: 1s;
+}
+
+.cont table td img:hover{
+	transform: scale(1.05, 1.05);
+}
+
+.tekst {
+	position: static;
+	font-size: 26px;
+	margin: auto;
+	background-color: #f2da52;
+	box-shadow: 0px 0px 25px 40px #f2da52;
+    width: 40%;
+    height: 100%;
+}
+
+.tekst p a{
+	color: yellow;
+	background-color: #103585;
+	display: inline-block;
+	position: relative;
+	left: 50px;
+	border: solid black 1px;
+	transition: 1s;
+}
+
+.tekst p a:hover{
+	transform: scale(1.1, 1.1);
+}
+
+
+form{
+	display: block;
+	position: relative;
+	width: 40%;
+	padding: 20px;
+	float: left;
+}
+
+#wiad{
+	box-shadow: 0 0 10px 5px black inset;
+	margin: auto;
+	padding: 20px;
+	height: 250px;
+	width: 400px;
+	font-size: 24px;
+}
+
+.kontakt{
+	display: block;
+	position: relative;
+	width: 100%;
+
+}
+
+.kontakt ul{
+	list-style-type: none;
+}
+
+.kontakt ul li{
+	box-shadow: 0px 0px 25px 40px #f2da52;
+	background-color: #f2da52;
+	margin: auto;
+	height: 50px;
+	width: 25%;
+	border-top: 1px solid black;
+}
+
+.tekst p .zdj1{
+	position: relative;
+	left: 1%;
+	width: 100%;
+}
+.tekst p .zdj2{
+	position: relative;
+	right: 1%;
+	width: 100%;
+}
