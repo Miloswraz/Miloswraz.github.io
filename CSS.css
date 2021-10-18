@@ -159,8 +159,8 @@ form{
 .kontakt{
 	display: block;
 	position: absolute;
-	width: 100%;
-	right: 5%;
+    width:50%;
+	right: 10px;
 
 }
 
