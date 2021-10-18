@@ -148,7 +148,7 @@ form{
 }
 
 #wiad{
-	box-shadow: 0 0 10px 5px black inset;
+	box-shadow: 0px 0px 10px 5px rgb(0, 0, 0) inset;
 	margin: auto;
 	padding: 20px;
 	height: 250px;
