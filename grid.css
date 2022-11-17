@@ -5,7 +5,7 @@ body {
 .cont {
   display: grid;
   grid-template-columns: 24% 24% 24% 24%;
-  grid-template-rows: 320px;
+  grid-template-rows: 520px;
 }
 
 .cont_letter {
@@ -30,7 +30,7 @@ body {
   grid-column: 1 / 2;
   display: grid;
   grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-rows: 33% 34% 33%;
   background-image: url('zdj/shark.gif');
   background-size: 100% 100%;
 }
@@ -64,7 +64,7 @@ body {
   grid-column: 2 / 3;
   display: grid;
   grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-rows: 33% 34% 33%;
   background-image: url('zdj/parrot-party.gif');
   background-size: 100% 100%;
 }
@@ -93,7 +93,7 @@ body {
   grid-column: 3 / 4;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-rows: 33% 34% 33%;
   background-image: url('zdj/gator-running.gif');
   background-size: 100% 100%;
 }
@@ -137,7 +137,7 @@ body {
   grid-column: 4 / 5;
   display: grid;
   grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-rows: 33% 34% 33%;
   background-image: url('zdj//snake.gif');
   background-size: 100px 100px;
 }
