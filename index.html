@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Napis grid</title>
-    <link rel="stylesheet" href="grid.css" />
-  </head>
-  <body>
-    <div class="cont">
-      <div id="h" class="cont_letter">
-        <div id="h1" class="element"></div>
-        <div id="h2" class="element"></div>
-        <div id="h3" class="element"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music tiles
+    </title>
+    <link rel="stylesheet" href="sas.css">
+    <script src="JS_menu.js"></script>
+</head>
+<body>
+    <header>
+        <div class="title">
+           <a href="index.html"><h2>Piano Play</h2></a> 
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="piano.html">Pianino</a></li>
+                <li><a href="poradnik.html">Poradniki</a></li>
+                <li><a href="instrumenty.html">Paczki Instrumentów</a></li>
+            </ul>
+        </nav>
+        <nav class="menu-mini">
+            <div class="menu-mini__icon" onclick="menu_list()"></div>
+            <ul class="menu-mini__list" id="mini_menu_list">
+                <li><a href="piano.html">Pianino</a></li>
+                <li><a href="poradnik.html">Poradniki</a></li>
+                <li><a href="instrumenty.html">Paczki Instrumentów</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main__desc">
+            <article class="main__desc__art">
+                <p>Witaj na stronie <i>Piano Play</i>. Znajdziesz tutaj narzędzie w postaci pianina, które będzie grało wybrane przez ciebie
+                dźwięki instrumentów.</p>
 
-        <div id="h1-w" class="white"></div>
-        <div id="h2-w" class="white"></div>
-      </div>
-      <div id="t" class="cont_letter">
-        <div id="t1" class="element"></div>
-        <div id="t2" class="element"></div>
+                <p><b>Jeśli jesteś gotowy kliknij 'Pianino' w menu, badź przycisk na dole tego artykuły</b></p>
 
-        <div id="t1-w" class="white"></div>
-        <div id="t2-w" class="white"></div>
-      </div>
-      <div id="m" class="cont_letter">
-        <div id="m1" class="element"></div>
-        <div id="m2" class="element"></div>
-        <div id="m3" class="element"></div>
-        <div id="m4" class="element"></div>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Non aspernatur eos aliquid commodi ipsum quia quae nostrum autem enim vel quaerat, officia consequatur 
+                    sequi voluptates. Nulla molestias cupiditate vel repellendus!</p>
+                <a class="main__desc__art__piano_button" href="piano.html">
+                    Piano
+                </a>
+            </article>
+        </div>
+    </main>
+    <footer>
+        Miłosz Wrazidło 2022
+    </footer>
+</body>
 
-        <div id="m1-w" class="white"></div>
-        <div id="m2-w" class="white"></div>
-        <div id="m3-w" class="white"></div>
-      </div>
-      <div id="l" class="cont_letter">
-        <div id="l1" class="element"></div>
-        <div id="l2" class="element"></div>
-
-        <div id="l1-w" class="white"></div>
-      </div>
-    </div>
-  </body>
+<script></script>
 </html>
